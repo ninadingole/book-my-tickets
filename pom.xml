@@ -15,8 +15,11 @@
         <module>theaterdb</module>
         <module>messaging</module>
         <module>security</module>
-        <module>rating</module>
+        <module>ratings</module>
         <module>offers</module>
+        <module>edge-services</module>
+        <module>config-server</module>
+        <module>dashboard-spring</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -100,10 +103,6 @@
             <artifactId>spring-boot-admin-starter-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>de.codecentric</groupId>
-            <artifactId>spring-boot-admin-starter-server</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka-streams</artifactId>
         </dependency>
@@ -151,10 +150,10 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-security</artifactId>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-vault-config</artifactId>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-zipkin</artifactId>
@@ -167,10 +166,10 @@
             <groupId>org.springframework.retry</groupId>
             <artifactId>spring-retry</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.session</groupId>
-            <artifactId>spring-session-data-redis</artifactId>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.session</groupId>-->
+            <!--<artifactId>spring-session-data-redis</artifactId>-->
+        <!--</dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
