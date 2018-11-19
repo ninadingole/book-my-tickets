@@ -11,5 +11,12 @@
 
     <artifactId>moviesdb</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.iamninad.moviedemo</groupId>
+            <artifactId>api</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+    </dependencies>
 
 </project>
