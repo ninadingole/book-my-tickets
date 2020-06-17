@@ -1,0 +1,9 @@
+eureka:
+  client:
+    register-with-eureka: false
+server:
+  port: 8888
+spring:
+  security:
+    user:
+      password: abc
